@@ -1,0 +1,19 @@
+# Build
+target
+
+# Eclipse
+.buildpath
+.classpath
+.externalToolBuilders
+.project
+.settings
+
+# IntelliJ
+*.iml
+.idea
+
+# Misc
+.DS_Store
+
+.cache-main
+.cache-tests
