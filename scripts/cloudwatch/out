@@ -1,0 +1,481 @@
+--------------
+Address Service - Prod - ALB Target Group  5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Analytics Service - Prod - ALB Target Group  5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+App - Demo - Home - Health check
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: 
+InsufficientDataActions: 
+--------------
+--------------
+App - Prod - ALB Target Group  5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+App - Prod - Home
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+App - Prod - Home - Latency
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+CPU utilization (user) on prod-elasticsearch-2 cluster
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+CPU utilization (user) on test-elasticsearch-2 cluster
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Carrier Service - Prod - ALB Target Group  5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Config Service - High Memory Utilization
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Config Service Dynamo Read Capacity Nearing Limit
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Config Service Dynamo Write Capacity Nearing Limit
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Config-Service Healthy Count
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Core Service - Prod - ALB Target Group 5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Data Service - Prod - ALB Target Group  5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Disk usage on data partition in prod-elasticsearch-2 cluster
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Disk usage on data partition in test-elasticsearch-2 cluster
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Disk usage on root partition in prod-elasticsearch-2 cluster
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Disk usage on root partition in test-elasticsearch-2 cluster
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - Prod - low disk space (Docker) [prod-ecs-asg-m4-large-1]
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - Prod - low disk space (root) [prod-ecs-asg-m4-large-1]
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - Prod - low memory
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - Test - low disk space (Docker) [test-ecs-asg-1]
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - Test - low disk space (Docker) [test-ecs-asg-t2-medium-1]
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - Test - low disk space (root) [test-ecs-asg-1]
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - Test - low disk space (root) [test-ecs-asg-t2-medium-1]
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - demo-carrier-service - low memory
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - prod-carrier-service - low memory
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - prod-core-service - low memory
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - prod-persistence-service - low memory
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - prod-shipment-pipeline - low memory
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - prod-tracking-service - low memory
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ECS - prod-webhooks-service - low memory
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+ES Indexer - Prod - Kinesis Lag
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Event Persistor - Prod - Kinesis Lag
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Event Persistor Record Consumption Error
+AlarmActions: arn:aws:sns:us-east-1:369175392861:OpsGenie ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:OpsGenie
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:OpsGenie
+--------------
+--------------
+Google Export Issue
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+High tracking update message latency
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Memory usage on prod-elasticsearch-2 cluster
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Memory usage on test-elasticsearch-2 cluster
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Number of nodes in prod-elasticsearch-2 cluster is below threshold
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Number of nodes in test-elasticsearch-2 cluster is below threshold
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Old Website - Home
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Order Pipeline - Prod - Kinesis Shard 0 Lagging Behind
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Order Pipeline - Prod - Kinesis Shard 0 No GET Requests
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Order Pipeline - Prod - Kinesis Shard 0 Write Throughput Exceeded
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Order Pipeline - Prod - Kinesis Stream GetRecords 0
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Persistence Service - Prod - ALB Target Group  5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Prod Shipment Report Persistor Queue Size
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Production tracking update failures
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+RDS - Prod - High CPU
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+RDS - Prod - High Connections
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+RDS - Prod - Low Free Storage Space
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+RDS - Test - High CPU
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Redshift - Prod - Low disk space
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Redshift - prod - peak disk usage
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Search Service - Prod - ALB Target Group 5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Shipment Pipeline Kinesis Shard 3 is Lagging Behind
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Shipment Pipeline Kinesis Shard 4 is Lagging Behind
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Shipment Pipeline Kinesis Shard 5 is Lagging Behind
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Shipment Pipeline Kinesis Shard 6 is Lagging Behind
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Shipment Service - Prod - ALB Target Group  5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Status of Elasticsearch cluster prod-elasticsearch-2 is RED
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Status of Elasticsearch cluster prod-elasticsearch-2 is YELLOW
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Status of Elasticsearch cluster test-elasticsearch-2 is RED
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Status of Elasticsearch cluster test-elasticsearch-2 is YELLOW
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+System load on prod-elasticsearch-2 cluster
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Tracking - Jet - Health check
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Tracking - Jet - Latency
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Tracking - Prod - ALB Target Group 5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Tracking Service - Prod - ALB Target Group  5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Webhooks Service - Prod - ALB Target Group 5XXs
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Webhooks Service - Prod - Number of Requests
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Website - Home - Health check
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+Website Home - Latency
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+etl-persistor P-S errors
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+event-persistor errors
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+prod-fuel-price-updates
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+prod-sftp-monitor - failed Lambda executions
+AlarmActions: arn:aws:sns:us-east-1:369175392861:pager-duty ,arn:aws:sns:us-east-1:369175392861:aws-alerts
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+--------------
+sup-rebuilder-checkpoints-ReadCapacityUnitsLimit-BasicAlarm
+AlarmActions: arn:aws:sns:us-east-1:369175392861:aws-alerts ,arn:aws:sns:us-east-1:369175392861:pager-duty
+OKActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+InsufficientDataActions: arn:aws:sns:us-east-1:369175392861:pager-duty
+--------------
+Alarm count: 80
